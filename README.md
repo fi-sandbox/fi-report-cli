@@ -20,3 +20,4 @@ tests/                      Jest test suite
 npm install
 npm test -- --coverage
 ```
+<!-- smoke test: Azure Boards linking check, AB#140 -->
