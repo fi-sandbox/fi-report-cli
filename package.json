@@ -1,0 +1,29 @@
+{
+  "name": "fi-report-cli",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Report formatting CLI (Node.js), low test coverage",
+  "license": "MIT",
+  "main": "src/cli.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fi-sandbox/fi-report-cli.git"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "lcov",
+      "json-summary"
+    ]
+  }
+}
