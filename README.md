@@ -20,3 +20,4 @@ tests/                      Jest test suite
 npm install
 npm test -- --coverage
 ```
+<!-- app-approval-check: temporary test edit, PR closed automatically -->
